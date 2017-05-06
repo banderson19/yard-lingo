@@ -1,0 +1,8 @@
+.top_container {
+  width: 100%;
+  height: 500px;
+  backface-visibility: hidden;
+  background-image: url(img/lawnmower.jpg);
+  background-size: cover;
+  backface-visibility: hidden;
+}
