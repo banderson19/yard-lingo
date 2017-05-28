@@ -1,0 +1,28 @@
+section {
+  background-color: lightgrey;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.contact-intro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-input-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 500px;
+  background-color: orange;
+}
+
+.contact-input-info {
+  width: 100%;
+}
+
+form h4 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}

@@ -1,13 +1,65 @@
 body {
   margin: 0px;
 }
+/*main {
+  padding: 10px;
+}*/
+
+nav {
+  background-color: lightgreen;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  float: left;
+}
+
+nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* jumbotron header */
 
 .jumbotron {
-  background: url("./img/mower_clipart.png");
-  background-size: 50% 100%;
-  color: #black;
-  text-align: center;
+  height: 250px;
+  width: 100%;
+  padding-top: 0px;
   margin-bottom: 0px;
+  margin-top: 40px;
+
+}
+
+.company-name {
+  float: left;
+  width: 33%;
+  height: 250px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.company-logo {
+  float: left;
+}
+
+.company-contact {
+  width: 33%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
 }
 
 h1 {
@@ -20,18 +72,62 @@ h2 {
   margin-bottom: 0px;
 }
 
+h3 {
+  margin-top: 0px;
+}
+
 .w100 {
   font-weight: 100;
 }
 
+/*containers*/
+
 .container-quote {
-  background-color: #D8D8D8;
+  background: url("./img/grass_lawn.jpg");
+  background-size: cover;
   text-align: center;
+  height: 500px;
+  display: flex;
+}
+
+.quote-box {
+  background-color: rgb(163, 162, 161);
+  width: 275px;
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+  filter: alpha;
+}
+
+.top_text_form {
+  text-align: center;
+  background: rgba(255, 255, 255);
+  font-weight: bold;
+  color: #000000;
+}
+
+form {
+  align-items: center;
+}
+
+.input_info {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.container-services {
+  background-color: #f45113;
+  text-align: center;
+
 }
 
 .container-map {
   background-color: #f45113; /*Orange*/
   height: 400px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .container-about {
@@ -40,7 +136,7 @@ h2 {
   padding: 10px;
 }
 
-.container-mission {
+.container-contact {
   background-color: #ffffff; /* Grey */
   text-align: center;
   padding: 10px;
